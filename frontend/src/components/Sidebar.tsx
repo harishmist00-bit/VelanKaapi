@@ -27,7 +27,7 @@ export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void 
       {open && <div className="no-print fixed inset-0 z-30 bg-slate-900/50 lg:hidden" onClick={onClose} />}
       <aside className={`no-print fixed inset-y-0 left-0 z-40 flex w-60 flex-col bg-charcoal-900 text-slate-300 transition-transform lg:static lg:translate-x-0 ${open ? "translate-x-0" : "-translate-x-full"}`}>
         <div className="flex h-14 items-center justify-between px-5">
-          <span className="flex items-center gap-2 text-base font-semibold text-white"><UtensilsCrossed size={20} className="text-brand-500" /> Restaurant POS</span>
+          <span className="flex items-center gap-2 text-base font-semibold text-white"><UtensilsCrossed size={20} className="text-brand-500" /> Velan Kaappi</span>
           <button className="lg:hidden" onClick={onClose} aria-label="Close menu"><X size={20} /></button>
         </div>
         <nav className="flex-1 space-y-0.5 overflow-y-auto px-3 py-2" aria-label="Main">
